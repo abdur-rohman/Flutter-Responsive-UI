@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:outlook/constants.dart';
 import 'package:outlook/screens/main/main_screen.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Responsive',
       theme: ThemeData(),
       home: MainScreen(),
     );

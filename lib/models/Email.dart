@@ -18,20 +18,20 @@ class Email {
 }
 
 List<Email> emails = List.generate(
-  demo_data.length,
+  dummyData.length,
   (index) => Email(
-    name: demo_data[index]['name'],
-    image: demo_data[index]['image'],
-    subject: demo_data[index]['subject'],
-    isAttachmentAvailable: demo_data[index]['isAttachmentAvailable'],
-    isChecked: demo_data[index]['isChecked'],
-    tagColor: demo_data[index]['tagColor'],
-    time: demo_data[index]['time'],
+    name: dummyData[index]['name'],
+    image: dummyData[index]['image'],
+    subject: dummyData[index]['subject'],
+    isAttachmentAvailable: dummyData[index]['isAttachmentAvailable'],
+    isChecked: dummyData[index]['isChecked'],
+    tagColor: dummyData[index]['tagColor'],
+    time: dummyData[index]['time'],
     body: emailDemoText,
   ),
 );
 
-List demo_data = [
+List dummyData = [
   {
     "name": "Apple",
     "image": "assets/images/user_1.png",
